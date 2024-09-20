@@ -27,7 +27,7 @@ public class NestedSwitchDemo1 {
 			case 2 : System.out.println("Call Routed to New York");break;
 			case 3 : System.out.println("Call Routed to Sydney");break;
 			case 0 :System.exit(0);
-			default : System.out.println("Invakid Input");break;
+			default : System.out.println("Invalid Input");break;
 			}
 			
 		break;
@@ -44,7 +44,7 @@ public class NestedSwitchDemo1 {
 			case 2 : System.out.println("Call Routed to Muscat");break;
 			case 3 : System.out.println("Call Routed to Abu Dhabi");break;
 			case 0 :System.exit(0);
-			default : System.out.println("Invakid Input");break;
+			default : System.out.println("Invalid Input");break;
 			}
 		break;
 		case 0:
