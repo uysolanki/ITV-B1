@@ -15,14 +15,14 @@ public class FunctionDemo2 {
 		System.out.println("I am back in Brazil");
 	}
 
+	//function defination aka function body
 	private static void france() {
 		System.out.println("I am in France");
-		brazil();
 	}
 
 	private static void argentina() {
 		System.out.println("I am in Argentina");
 
 	}
-
+	
 }

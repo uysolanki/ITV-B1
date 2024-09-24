@@ -4,18 +4,18 @@ public class FunctionDay1 {
 
 	public static void main(String[] args) {
 		System.out.println("Hi");								//1
-		sharikShaikh();    //main in sleep mode
+		sharik();    //main in sleep mode
 		System.out.println("Bye");								//4
 	}
 	
-	public static void sharikShaikh()
+	public static void sharik()
 	{
 		System.out.println("ITV");								//2
-		sumitSomase();
+		sumit();
 		
 	}
 
-	public static void sumitSomase()
+	public static void sumit()
 	{
 		System.out.println("Ferguson College");					//3
 	}
