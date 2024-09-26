@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class FunctionScenerio1 {
 
 	public static void main(String[] args) {
-		
 		areaRectangle();									//call
 	}
 
