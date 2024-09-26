@@ -11,37 +11,27 @@ public class ProfitLossProMax {
 		System.out.println("Enter the Selling Price");
 		int sp=sc.nextInt();
 		
-		business(cp,sp);
+		calculatePL(cp,sp);
 
 	}
 
-	private static void business(int cp, int sp) {
+
+
+	private static void calculatePL(int cp, int sp) {
+		int plAmount=Math.abs(sp-cp);		
+		double plPer = (plAmount * 100) / cp;
 		if(sp>cp)
 		{
-					calculatePL(cp,sp);
-					
-		}
-		else if(sp<cp)
-		{		
-					int lossAmount=cp-sp;		
-					double lossPer = (lossAmount * 100) / cp;
-					System.out.println("Loss Occured");
-					System.out.println("Loss Amount "+lossAmount);
-					System.out.println("Loss Percentage "+lossPer);
+		System.out.println("Profit Gained");
+		System.out.println("Profit Amount "+plAmount);
+		System.out.println("Profit Percentage "+plPer);
 		}
 		else
 		{
-			System.out.println("No P No L");
+		System.out.println("Loss Occured");
+		System.out.println("Loss Amount "+plAmount);
+		System.out.println("Loss Percentage "+plPer);	
 		}
-		
-	}
-
-	private static void calculatePL(int cp, int sp) {
-		int profitAmount=sp-cp;		
-		double profitPer = (profitAmount * 100) / cp;
-		System.out.println("Profit Gained");
-		System.out.println("Profit Amount "+profitAmount);
-		System.out.println("Profit Percentage "+profitPer);
 		
 	}
 
